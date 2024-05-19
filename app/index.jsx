@@ -71,25 +71,6 @@ export default function App() {
         href="https://drive.google.com/file/d/1JaPy4oWz-Y0Jl6iid-nd7eON0-oLN4WG/view?usp=drive_link"><Icon name='file-pdf-o' size={20} color="white"/> Resume </Link>
     </ScrollView>
 
-    <View className="h-[40px]"></View>
-    <View className="bg-white p-[10px] w-[90%] mt-[20px] items-center rounded-[10px] flex flex-row justify-evenly">
-        <View className="w-[45%] pl-[5%] pr-[5%]">
-            <Link className='flex flex-col items-center rounded-[10px] bg-[#F3F6F6] p-[20px]' href="/About">
-                <View>
-                <Text className="text-center"><Icon name="user-o" size={25}/> </Text>
-                <Text className="text-center font-pregular text-[16px] leading-[20px]">About</Text>
-                </View>
-            </Link>
-        </View>
-        <View className="w-[45%] pl-[5%] pr-[5%]">
-        <Link className='flex flex-col items-center rounded-[10px] bg-[#F3F6F6] p-[20px]' href="/Resume">
-            <View>
-            <Text className="text-center"><Icon name="file-pdf-o" size={25}/> </Text>
-            <Text className="text-center font-pregular text-[16px] leading-[20px]">Resume</Text>
-            </View>
-        </Link>
-        </View>
-    </View>
     </SafeAreaView>
     </ScrollView>
   );

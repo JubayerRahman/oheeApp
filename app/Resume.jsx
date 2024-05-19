@@ -20,7 +20,7 @@ const Resume = () => {
             <Text className="font-pregular text-[#6b7280] text-[14px] leading-5 mt-[10px]">Feni, Bangladesh</Text>
           </View>
           <View className="School bg-[#F3F6F6] p-[20px] mt-[20px] rounded-xl">
-            <Text className="font-pregular text-[#6b7280] text-[14px] leading-5 mt-[10px]">2017- 2028</Text>
+            <Text className="font-pregular text-[#6b7280] text-[14px] leading-5 mt-[10px]">2017- 2018</Text>
             <Text className="font-rmedium text-[16px] leading-6 mt-[10px]">secondary school certificate</Text>
             <Text className="font-pregular text-[#6b7280] text-[14px] leading-5 mt-[10px]">Hasan Ali Govt High School</Text>
             <Text className="font-pregular text-[#6b7280] text-[14px] leading-5 mt-[10px]">Chandpur, Bangladesh</Text>

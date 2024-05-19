@@ -2,6 +2,7 @@
   "expo": {
     "name": "oheeApp",
     "slug": "oheeApp",
+    "scheme": "oheeApp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/ohee.jpg",
