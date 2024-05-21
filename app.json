@@ -3,7 +3,7 @@
     "name": "oheeApp",
     "slug": "oheeApp",
     "scheme": "oheeApp",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "orientation": "portrait",
     "icon": "./assets/ohee.jpg",
     "userInterfaceStyle": "light",

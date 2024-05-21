@@ -4,7 +4,7 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 const About = () => {
   return (
       <ScrollView className="p-[10px] bg-[#DCDEF3]">
-        <View className="bg-white w-[95%] p-[20px] rounded-xl flex flex-1 mx-auto mb-[40px]">
+        <View className="bg-white w-[95%] p-[20px] rounded-xl flex flex-1 mx-auto mb-[40px] mt-[150px]">
           <View className="flex flex-row justify-start gap-5 items-center">
             <Text className="font-rmedium text-4xl">About</Text>
             <View className="h-[6px] w-[50%] rounded bg-[#1B74E4]"></View>
