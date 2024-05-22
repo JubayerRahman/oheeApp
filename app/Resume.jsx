@@ -1,3 +1,4 @@
+import { StatusBar } from 'expo-status-bar';
 import { ScrollView, StyleSheet, Text, View } from 'react-native'
 import Icon from 'react-native-vector-icons/FontAwesome';
 
@@ -50,6 +51,7 @@ const Resume = () => {
             </View>
           </View>
         </View>
+        <StatusBar hidden={false} barStyle="dark" backgroundColor="#ffffff" />
     </ScrollView>
   )
 }

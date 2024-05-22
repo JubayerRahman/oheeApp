@@ -144,6 +144,7 @@ const RootLayout = () => {
         }} />
     </Tabs>
     </SafeAreaView>
+    <StatusBar hidden={false} barStyle="dark" backgroundColor="#ffffff" />
     </SafeAreaProvider>
 )
 }

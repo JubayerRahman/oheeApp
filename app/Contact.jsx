@@ -1,5 +1,6 @@
 import { Button, ScrollView, StyleSheet, Text, TextInput, TouchableHighlight, TouchableOpacity, View } from 'react-native'
 import React from 'react'
+import { StatusBar } from 'expo-status-bar'
 
 const Contact = () => {
   return (
@@ -20,6 +21,7 @@ const Contact = () => {
           <TouchableOpacity><Text className="p-[10px] bg-[#f6f6f6] w-[30%] text-center mt-[20px] rounded-[10px] border-[2px] border-gray-600 font-pregular justify-center  text-[14px]">Submit</Text></TouchableOpacity>
         </View>
       </View>
+      <StatusBar hidden={false} barStyle="dark" backgroundColor="#ffffff" />
     </ScrollView>
   )
 }

@@ -1,3 +1,4 @@
+import { StatusBar } from 'expo-status-bar';
 import { ScrollView, StyleSheet, Text, View } from 'react-native'
 import Icon from 'react-native-vector-icons/FontAwesome';
 
@@ -33,6 +34,7 @@ const About = () => {
             <Text className="font-pregular text-[#6b7280] text-[16px] leading-5 mt-[10px]">I love to make cross platform Applications using react native for bot ios and Android.</Text>
           </View>
         </View>
+        <StatusBar hidden={false} barStyle="dark" backgroundColor="#ffffff" />
       </ScrollView>
   )
 }

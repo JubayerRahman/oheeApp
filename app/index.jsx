@@ -9,7 +9,7 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 export default function App() {
   return (
     <ScrollView>
-        <SafeAreaView className="flex flex-1 p-[10px] bg-[#DCDEF3] items-center ">
+        <SafeAreaView className="flex flex-1 p-[10px] bg-[#DCDEF3] items-center  pb-[50px]">
         <StatusBar hidden={false} barStyle="dark-content" backgroundColor="#FFFFFF" />
         <TouchableOpacity className="z-10 h-[250px] w-[80%] mt-[100px] p-[10px]  " style={{elevation:100}}>
             <Image
@@ -77,8 +77,8 @@ export default function App() {
         className='p-[15px] text-center w-[60%] ml-[20%] mr-[20%] mt-[20px] rounded-[10px] text-xl font-pregular text-white bg-[#1B74E4] mb-[10px]'
         href="https://drive.google.com/file/d/1JaPy4oWz-Y0Jl6iid-nd7eON0-oLN4WG/view?usp=drive_link"><Icon name='file-pdf-o' size={20} color="white"/> Resume </Link>
     </ScrollView>
-
     </SafeAreaView>
+    <StatusBar hidden={false} barStyle="dark" backgroundColor="#ffffff" />
     </ScrollView>
   );
 }
